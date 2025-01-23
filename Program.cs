@@ -1,6 +1,7 @@
 ﻿//Christopher Hercules, 1410, 1/22/2025
 
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 
 public class TDD
 
@@ -40,5 +41,14 @@ public class TDD
         }
 
     public static int[] Mergesort(int[] values)
-    {}
+    {
+        if (values.Length < 2)
+        {
+            return (int[])values.Clone();
+        }
+        int middle = values.Length / 2;
+        int[] firstHalf = values[0..middle];
+        int[] secondHalf = values[middle..values.Length];
+        return SortedArrays(Mergesort(firstHalf), Mergesort(secondHalf));
+    }
 }
