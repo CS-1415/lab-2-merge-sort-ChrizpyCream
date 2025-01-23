@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab-2-merge-sort-ChrizpyCream", "lab-2-merge-sort-ChrizpyCream.csproj", "{BAEFA1FA-DB50-2C8A-3C9F-FBB809FEB91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAEFA1FA-DB50-2C8A-3C9F-FBB809FEB91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEFA1FA-DB50-2C8A-3C9F-FBB809FEB91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEFA1FA-DB50-2C8A-3C9F-FBB809FEB91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEFA1FA-DB50-2C8A-3C9F-FBB809FEB91D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56BA7CC9-372D-4F29-A47D-C58139A8476C}
+	EndGlobalSection
+EndGlobal
